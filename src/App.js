@@ -4,9 +4,9 @@ import Glance from "./Glance";
 import Tree from "./Tree";
 import InfiniteScroll from "./InfiniteScroll";
 
-const nameArray = ["Tree", "InfiniteScroll", "Glance"];
+const nameArray = ["InfiniteScroll", "Tree", "Glance"];
 
-const componentArray = [<Tree />, <InfiniteScroll />, <Glance />];
+const componentArray = [<InfiniteScroll />, <Tree />, <Glance />];
 export default function App() {
   const [mode, setMode] = useState(0);
   return (

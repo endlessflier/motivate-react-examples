@@ -6,3 +6,24 @@
 .tree {
   text-align: left;
 }
+
+.container {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  height: 200px;
+  overflow-y: auto;
+}
+
+.row {
+  text-align: center;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+}
+.box {
+  width: 50px;
+  border: 2px solid green;
+  padding: 5px;
+  margin: 10px;
+}
